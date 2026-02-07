@@ -250,15 +250,12 @@
 	                            sprite_index = spr_panicdebris_rooftop;
 	                        else
 	                            sprite_index = spr_panicdebris_rooftop2;
-                        
 	                        break;
-                    
 	                    case "ancient":
 	                        if (room == rm_ancient1 || room == rm_ancient2 || room == rm_ancient3 || room == rm_ancient4 || room == rm_ancient5)
 	                            sprite_index = spr_panicdebris_ancient;
 	                        else
 	                            sprite_index = spr_panicdebris_ancient2;
-                        
 	                        break;
                     
 	                    case "cave":
@@ -266,9 +263,7 @@
 	                            sprite_index = spr_panicdebris_cave;
 	                        else
 	                            sprite_index = spr_panicdebris_cave2;
-                        
 	                        break;
-                    
 	                    case "resort":
 	                        if (room == rm_resort4 || room == rm_resort5 || room == rm_resort8)
 	                            sprite_index = spr_panicdebris_resort;
@@ -276,39 +271,30 @@
 	                            sprite_index = spr_panicdebris_resort1;
 	                        else
 	                            sprite_index = spr_panicdebris_resort2;
-                        
 	                        break;
-                    
 	                    case "urban":
 	                        if (room == rm_urban1 || room == rm_cave1a || room == rm_cave2 || room == rm_cave3 || room == rm_cave3a || room == rm_cave4)
 	                            sprite_index = spr_panicdebris_rooftop;
 	                        else
 	                            sprite_index = spr_panicdebris_rooftop2;
-                        
 	                        break;
-                    
 	                    case "freezer":
 	                        if (room == rm_freezer5 || room == rm_freezer5a || room == rm_freezer6 || room == rm_freezer7 || room == rm_freezer10 || room == rm_freezer11 || room == rm_freezer12)
 	                            sprite_index = spr_panicdebris_freezer2;
 	                        else
 	                            sprite_index = spr_panicdebris_freezer1;
-                        
 	                        break;
-                    
 	                    case "crateburg":
 	                        sprite_index = spr_panicdebris_crateburg;
 	                        break;
-                    
 	                    case "train":
 	                        sprite_index = spr_panicdebris_train;
 	                        break;
-                    
 	                    case "circus":
 	                        if (room == rm_circus1 || room == rm_circus2 || room == rm_circus11)
 	                            sprite_index = spr_panicdebris_circus1;
 	                        else
 	                            sprite_index = spr_panicdebris_circus2;
-                        
 	                        break;
 	                }
                 

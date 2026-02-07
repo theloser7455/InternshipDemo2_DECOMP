@@ -377,15 +377,15 @@ switch sprite_index
         sprite_index = spr_player_uppunch_loop
         break
     case spr_player_idling1:
-        idling_spr = -4
+        idling_spr = noone
         idling_time = 0
         break
     case spr_player_idling2:
-        idling_spr = -4
+        idling_spr = noone
         idling_time = 0
         break
     case spr_player_idling3:
-        idling_spr = -4
+        idling_spr = noone
         idling_time = 0
         break
     case spr_player_ceilinghit:

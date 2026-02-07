@@ -74,7 +74,7 @@ function scr_player_normal() //scr_player_normal
         }
         if (idling_time < 140)
             idling_time++
-        else if (idling_spr == -4)
+        else if (idling_spr == noone)
         {
             image_index = 0
             idling_spr = choose(spr_player_idling1, spr_player_idling2, spr_player_idling3)
@@ -83,7 +83,7 @@ function scr_player_normal() //scr_player_normal
     else
     {
         voice_idletime = 0
-        idling_spr = -4
+        idling_spr = noone
         idling_time = 0
     }
     if grounded
@@ -377,7 +377,7 @@ function scr_player_normal() //scr_player_normal
                         }
                         else if (global.heat == 3)
                             sprite_index = spr_player_idle_hot
-                        else if (idling_spr != -4)
+                        else if (idling_spr != noone)
                             sprite_index = idling_spr
                         else
                             sprite_index = spr_player_idle

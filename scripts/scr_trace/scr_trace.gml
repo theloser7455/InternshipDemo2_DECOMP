@@ -5,4 +5,3 @@ function scr_trace() //scr_trace
         _string += string(argument[i])
     show_debug_message(_string)
 }
-

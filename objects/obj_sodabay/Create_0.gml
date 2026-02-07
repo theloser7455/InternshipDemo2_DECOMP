@@ -1,2 +1,2 @@
 timer = 20
-spawned_id = -4
+spawned_id = noone

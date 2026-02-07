@@ -7,7 +7,7 @@ if instance_exists(grabber_id)
     if (grabber_id.state == "grab")
         depth = -1
     else
-        grabber_id = -4
+        grabber_id = noone
 }
 else
 {

@@ -1,6 +1,6 @@
 if keyboard_check_pressed(global.key_grab)
 {
-    global.trainsfx = -4
+    global.trainsfx = noone
     scr_transfo_msg_clear()
     audio_stop_all()
     ds_list_clear(global.saveroom)
@@ -106,7 +106,7 @@ if (timer > 0)
     timer--
 else
 {
-    global.trainsfx = -4
+    global.trainsfx = noone
     scr_transfo_msg_clear()
     audio_stop_all()
     ds_list_clear(global.saveroom)

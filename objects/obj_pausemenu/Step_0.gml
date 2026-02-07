@@ -38,7 +38,7 @@ switch section
                         game_restart()
                     else
                     {
-                        global.trainsfx = -4
+                        global.trainsfx = noone
                         audio_stop_all()
                         ds_list_clear(global.saveroom)
                         ds_list_clear(global.enemy_spawners)

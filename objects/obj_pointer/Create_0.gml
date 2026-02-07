@@ -1,2 +1,2 @@
-targ = -4
+targ = noone
 image_angle = 180

@@ -5,6 +5,6 @@ img_index = 0
 colpl = 0
 image_alpha = 0.75
 bubsndtimer = 160
-bubsnd = -4
+bubsnd = noone
 scr_random()
 wavetimer = 20

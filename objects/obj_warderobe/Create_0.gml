@@ -1,4 +1,4 @@
-cursid = -4
+cursid = noone
 ini_open(global.savedata_ini)
 hat_array_selected = ini_read_real("story", "hat_current", 0)
 hat_act = "none"

@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Palette",
-    "path": "folders/Scripts/Palette.yy",
+    "name": "Retro Palette Swapper",
+    "path": "folders/Scripts/Retro Palette Swapper.yy",
   },
 }

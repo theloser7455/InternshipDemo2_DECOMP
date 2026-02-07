@@ -10,7 +10,7 @@ tvx = 1696
 tvy = 160
 tv2x = 256
 tv2y = 192
-tv2spr = -4
+tv2spr = noone
 scr_random()
 tv2spridle = irandom_range(30, 190)
 tv2smg = 0

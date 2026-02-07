@@ -1,6 +1,6 @@
-cursid = -4
+cursid = noone
 depth = 20
-rm = -4
+rm = noone
 rmname = "NAN"
 timertofade = 70
 oj = 0

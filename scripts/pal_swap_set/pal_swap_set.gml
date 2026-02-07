@@ -1,9 +1,8 @@
-function pal_swap_set() //pal_swap_set
+function pal_swap_set(_pal_sprite, _pal_index)
 {
     shader_set(global.Pal_Shader)
-    var _pal_sprite = argument[0]
-    var _pal_index = argument[1]
-    if (!argument[2])
+	var _surface = false
+    if (!_surface)
     {
         var tex = sprite_get_texture(_pal_sprite, 0)
         var UVs = sprite_get_uvs(_pal_sprite, 0)
@@ -13,7 +12,7 @@ function pal_swap_set() //pal_swap_set
         var texel_hx = texel_x * 0.5
         var texel_hy = texel_y * 0.5
         shader_set_uniform_f(global.Pal_Texel_Size, texel_x, texel_y)
-        shader_set_uniform_f(global.Pal_UVs, (UVs[0] + texel_hx), (UVs[1] + texel_hy), (UVs[2] + texel_hx), (UVs[3] + texel_hy))
+        shader_set_uniform_f(global.Pal_UVs, UVs[0] + texel_hx, UVs[1] + texel_hy, UVs[2] + texel_hx, UVs[3] + texel_hy)
         shader_set_uniform_f(global.Pal_Index, _pal_index)
     }
     else
@@ -29,4 +28,3 @@ function pal_swap_set() //pal_swap_set
         shader_set_uniform_f(global.Pal_Index, _pal_index)
     }
 }
-

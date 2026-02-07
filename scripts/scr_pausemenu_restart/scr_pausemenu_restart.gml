@@ -2,7 +2,7 @@ function scr_pausemenu_restart() //scr_pausemenu_restart
 {
     if (room != rm_timesup && global.level != "hub")
     {
-        global.trainsfx = -4
+        global.trainsfx = noone
         global.treasure = 0
         global.insecret = 0
         global.heat = 1

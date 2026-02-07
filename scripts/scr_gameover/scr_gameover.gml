@@ -36,7 +36,7 @@ function scr_gameover() //scr_gameover
     global.mayogun = 0
     global.laps = 0
     global.jetpack_fuel = 5
-    global.trainsfx = -4
+    global.trainsfx = noone
     audio_stop_all()
     audio_stop_sound(global.bigsvoice)
     scr_transfo_msg_clear()

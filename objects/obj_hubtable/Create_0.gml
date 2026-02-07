@@ -69,4 +69,4 @@ else
     array_set(dial_emo, 10, "happy")
 }
 cutscene = 0
-cursid = -4
+cursid = noone

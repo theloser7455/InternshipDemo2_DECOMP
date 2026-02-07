@@ -1,6 +1,6 @@
-rm = -4
+rm = noone
 targx = 0
 targy = 0
 deaf = 0
 doornum = "A"
-checkpoint = -4
+checkpoint = noone

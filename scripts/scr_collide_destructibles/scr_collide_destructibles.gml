@@ -1,5 +1,6 @@
 function scr_collide_destructibles()
 {
+	// Really man your using pt code for this?
     if (vsp <= 0.5 && (state == 57 || state == 16 || state == 5 || state == 62 || state == 69 || state == 89))
     {
         if (place_meeting(x, y - 1, obj_destroyable))

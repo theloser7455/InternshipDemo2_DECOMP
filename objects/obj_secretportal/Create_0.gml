@@ -1,8 +1,8 @@
 doit = 0;
-mus = -4;
-rm = -4;
+mus = noone;
+rm = noone;
 insecret = 0;
-fadeid = -4;
+fadeid = noone;
 ghost_cd = 0;
 depth = 20;
 parc_time = 0;

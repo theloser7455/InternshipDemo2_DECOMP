@@ -11,7 +11,7 @@ function scr_player_grab() //scr_player_grab
             hsp = 0
             fly_spd = 0
             slide_spd = 0
-            grabber_id = -4
+            grabber_id = noone
         }
         state = "normal"
     }
@@ -103,7 +103,7 @@ function scr_player_grab() //scr_player_grab
             {
                 vsp = -15
                 hsp = other.image_xscale * 5
-                grabber_id = -4
+                grabber_id = noone
             }
         }
         else
@@ -119,7 +119,7 @@ function scr_player_grab() //scr_player_grab
                 }
                 else
                     hsp = other.image_xscale * 9
-                grabber_id = -4
+                grabber_id = noone
             }
         }
     }

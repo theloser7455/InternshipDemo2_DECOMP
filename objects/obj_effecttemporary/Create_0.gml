@@ -1,2 +1,2 @@
 depth = 10
-targ = -4
+targ = noone

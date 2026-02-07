@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Other",
-    "path": "folders/Scripts/Other.yy",
+    "name": "Enemy_state",
+    "path": "folders/Scripts/Enemy/Enemy_state.yy",
   },
 }

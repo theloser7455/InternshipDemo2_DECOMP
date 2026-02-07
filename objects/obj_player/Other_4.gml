@@ -1,4 +1,4 @@
-if (global.level == "hub" && global.lvl_exit_rm != -4)
+if (global.level == "hub" && global.lvl_exit_rm != noone)
 {
     if (global.coop == 1)
     {
@@ -28,10 +28,10 @@ if (global.level == "hub" && global.lvl_exit_rm != -4)
             global.lvl_exit_y = 0
         }
     }
-    if (global.lvl_exit_rm != -4)
+    if (global.lvl_exit_rm != noone)
     {
         room_goto(global.lvl_exit_rm)
-        global.lvl_exit_rm = -4
+        global.lvl_exit_rm = noone
     }
 }
 else
