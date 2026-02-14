@@ -4,7 +4,7 @@ if (snipe_player == 1)
 	    {
 	        var time = audio_sound_get_track_position(global.music);
 	        var mus = global.music;
-	        audio_group_stop_all(1);
+	        audio_group_stop_all(ag_mu);
 	        global.music = audio_play_sound(music, 1, true);
         
 	        switch (dontmatch)

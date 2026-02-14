@@ -37,7 +37,7 @@ if (hp < 1)
         image_blend = c_white
     }
     global.combotimer = global.combotimer_full
-    audio_group_stop_all(1)
+    audio_group_stop_all(ag_mu)
     global.music = audio_play_sound(mu_rushhour, 1, 0)
     if (global.escape == false)
     {

@@ -12,7 +12,7 @@ if (doit == 1)
     ds_list_clear(global.enemy_spawners)
     if (!audio_is_playing(mu_lap2_new))
     {
-        audio_group_stop_all(1)
+        audio_group_stop_all(ag_mu)
         global.music = audio_play_sound(mu_lap2_new, 1, 1)
     }
     switch global.level

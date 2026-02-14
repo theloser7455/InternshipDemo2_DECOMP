@@ -1,1 +1,1 @@
-targ = 160
+targ = obj_player

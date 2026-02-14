@@ -1,5 +1,5 @@
 depth = 10
-targ = 160
+targ = obj_player
 ini_open(global.savedata_ini)
 hat = ini_read_real("story", "hat_current", 0)
 ini_close()

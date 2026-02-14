@@ -7,7 +7,7 @@ if (instance_exists(obj_player) && global.escape == 1)
             with (instance_create_depth(obj_player.x, (obj_player.bbox_top - 32), -1, obj_pointer))
             {
                 other.cursid = id
-                targ = 160
+                targ = obj_player
             }
         }
     }
@@ -31,7 +31,7 @@ if (nowyou == 1)
     instance_destroy(obj_comborank)
     instance_destroy(obj_effecttarget)
     instance_destroy(obj_effecttemporary)
-    audio_group_stop_all(1)
+    audio_group_stop_all(ag_mu)
     audio_stop_sound(global.trainsfx)
     ini_open(global.savedata_ini)
     var _tut = ini_read_real("story", "entrancedone", 0)

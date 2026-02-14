@@ -2,7 +2,7 @@ if (other.state == "normal" || other.state == "tackle1" || other.state == "tackl
     scr_shortmessage(rmname)
 if (other.key_up && other.grounded && other.crouch == 0 && other.spinning == 0 && other.grabbing == 0 && (other.state == "normal" || other.state == "tackle1" || other.state == "tackle2" || other.state == "superjumpprep"))
 {
-    audio_group_stop_all(1)
+    audio_group_stop_all(ag_mu)
     global.combo = 0
     global.timer = 0
     global.score = 0

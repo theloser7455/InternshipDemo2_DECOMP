@@ -134,7 +134,7 @@ if instance_exists(obj_player)
             with (instance_create_depth(obj_player.x, (obj_player.bbox_top - 32), -1, obj_pointer))
             {
                 other.cursid = id
-                targ = 160
+                targ = obj_player
             }
         }
     }

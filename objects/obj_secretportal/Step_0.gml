@@ -13,7 +13,7 @@ if (instance_exists(fadeid))
         
         if (!audio_is_playing(mus) && global.escape == 0)
         {
-            audio_group_stop_all(1);
+            audio_group_stop_all(ag_mu);
             global.music = audio_play_sound(mus, 1, true);
         }
         

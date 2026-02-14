@@ -1,3 +1,3 @@
 depth = 10
-targ = 160
+targ = obj_player
 scr_random()
