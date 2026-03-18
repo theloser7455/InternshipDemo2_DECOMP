@@ -9,4 +9,3 @@ function scr_player_escapeenter() //scr_player_escapeenter
     if instance_exists(door_id)
         x += ((door_id.x - x) * 0.08)
 }
-

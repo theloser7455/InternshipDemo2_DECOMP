@@ -36,7 +36,7 @@ function scr_player_perform_hurt(argument0, argument1) //scr_player_perform_hurt
     else
         hsp = -7
     vsp = -12
-    if (argument0 == 1)
+    if argument0 == 1
     {
         if (global.score >= 50)
         {
@@ -106,10 +106,9 @@ function scr_player_perform_hurt(argument0, argument1) //scr_player_perform_hurt
         global.score -= 50
     }
     image_index = 0
-    if (obj_player.grounded == 0)
+    if (obj_player.grounded == false)
         sprite_index = spr_player_hurt_air
     else
         sprite_index = spr_player_hurt
     state = "hurt"
 }
-

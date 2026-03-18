@@ -9,4 +9,3 @@ function scr_player_enterdoor() //scr_player_enterdoor
     if (doorexit_state != "roomenter" && instance_exists(door_id))
         x += ((door_id.x - x) * 0.08)
 }
-

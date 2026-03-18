@@ -37,4 +37,3 @@ function scr_enemy_create() //scr_enemy_create
     reaction_time = 15
     arena_boy = 0
 }
-

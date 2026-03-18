@@ -34,4 +34,3 @@ function scr_player_gotocheckpoint() //scr_player_gotocheckpoint
     ghostcheckpoint_spd = clamp(ghostcheckpoint_spd, 8, 27)
     state = "ghostcheckpoint"
 }
-

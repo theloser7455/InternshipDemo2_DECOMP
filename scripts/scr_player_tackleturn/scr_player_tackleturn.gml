@@ -62,4 +62,3 @@ function scr_player_tackleturn() //scr_player_tackleturn
     if (turnspr == spr_sauce)
         sprite_index = spr_player_tackle2_turn_loop
 }
-

@@ -34,6 +34,4 @@ function scr_radiomessage(argument0, argument1) //scr_radiomessage
             obj_scorekeeper.rmg2_spr = spr_tv_tomatino_talk_crazy
             break
     }
-
 }
-

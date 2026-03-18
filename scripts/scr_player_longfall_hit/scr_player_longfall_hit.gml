@@ -8,4 +8,3 @@ function scr_player_longfall_hit() //scr_player_longfall_hit
     image_speed = 1
     sprite_index = spr_player_longfall_land
 }
-

@@ -13,4 +13,3 @@ function scr_enemy_spellcast() //scr_enemy_spellcast
         thrown = 1
     }
 }
-

@@ -6,4 +6,3 @@ function scr_player_timesup() //scr_player_timesup
     vsp = 0
     sprite_index = spr_player_shock
 }
-

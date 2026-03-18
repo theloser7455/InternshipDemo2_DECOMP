@@ -12,4 +12,3 @@ function scr_player_ceilinghit() //scr_player_ceilinghit
     machspd = 0
     machtime = 0
 }
-

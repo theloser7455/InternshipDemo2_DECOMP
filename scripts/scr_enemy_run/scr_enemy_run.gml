@@ -32,4 +32,3 @@ function scr_enemy_run() //scr_enemy_run
         }
     }
 }
-

@@ -125,4 +125,3 @@ function scr_player_grab() //scr_player_grab
     }
     hsp = move * (6 - inwater * 1 * walk_acc)
 }
-

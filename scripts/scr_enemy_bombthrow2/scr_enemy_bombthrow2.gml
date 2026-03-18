@@ -10,4 +10,3 @@ function scr_enemy_bombthrow2() //scr_enemy_bombthrow2
         thrown = 1
     }
 }
-

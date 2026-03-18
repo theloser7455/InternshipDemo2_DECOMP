@@ -71,7 +71,7 @@ switch state
         else
         {
             scr_sound(sfx_hit)
-            with (instance_create_depth(x, y, -1004, obj_debris))
+            with instance_create_depth(x, y, -1004, obj_debris)
             {
                 particles = 1
                 hsp = choose(-8, 8)

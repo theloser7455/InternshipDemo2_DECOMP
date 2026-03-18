@@ -6,7 +6,7 @@ function scr_enemy_olivebreak() //scr_enemy_olivebreak
         ghost_cd--
     else
     {
-        with (instance_create_depth(x, y, 30, obj_machafterimage))
+        with instance_create_depth(x, y, 30, obj_machafterimage)
         {
             image_index = other.image_index
             image_xscale = other.image_xscale
@@ -21,4 +21,3 @@ function scr_enemy_olivebreak() //scr_enemy_olivebreak
         breakspd -= 0.006
     breakspd = max(0, breakspd)
 }
-

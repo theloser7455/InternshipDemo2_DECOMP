@@ -4,4 +4,3 @@ function scr_enemy_explode() //scr_enemy_explode
     sprite_index = asset_get_index("spr_" + enem_type + "_explode")
     image_speed = 1.4
 }
-

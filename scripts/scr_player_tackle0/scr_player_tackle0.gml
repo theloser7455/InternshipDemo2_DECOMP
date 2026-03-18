@@ -77,4 +77,3 @@ function scr_player_tackle0() //scr_player_tackle0
         state = "normal"
     }
 }
-

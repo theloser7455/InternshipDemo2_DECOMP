@@ -490,6 +490,4 @@ function scr_playerspr() //scr_playerspr
             spr_player_onfire_run = spr_intern_onfire_run
             break
     }
-
 }
-

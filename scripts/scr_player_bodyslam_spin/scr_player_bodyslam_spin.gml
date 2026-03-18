@@ -12,4 +12,3 @@ function scr_player_bodyslam_spin() //scr_player_bodyslam_spin
     image_speed = 1
     sprite_index = spr_player_bodyslam_uppunchafter
 }
-

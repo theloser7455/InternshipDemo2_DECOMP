@@ -7,4 +7,3 @@ function scr_message(argument0) //scr_message
         msg_time = 0
     }
 }
-

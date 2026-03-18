@@ -4,4 +4,3 @@ function scr_collect_draw() //scr_collect_draw
     draw_self()
     scr_silh_end()
 }
-

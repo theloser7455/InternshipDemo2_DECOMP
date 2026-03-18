@@ -33,4 +33,3 @@ function scr_enemy_deathtackle() //scr_enemy_deathtackle
     if (object_index != obj_dummy)
         sprite_index = asset_get_index("spr_" + string(enem_type) + "_stun")
 }
-

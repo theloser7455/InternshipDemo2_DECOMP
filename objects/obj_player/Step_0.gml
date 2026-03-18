@@ -59,7 +59,6 @@ switch object_index
         key_dash_release = keyboard_check_released(ord("Q"))
         break
 }
-
 move = key_right - key_left
 if (blink > 0)
     blink--

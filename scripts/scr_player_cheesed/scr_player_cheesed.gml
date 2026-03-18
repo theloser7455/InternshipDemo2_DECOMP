@@ -205,6 +205,4 @@ function scr_player_cheesed() //scr_player_cheesed
             hsp = image_xscale * 10
             break
     }
-
 }
-

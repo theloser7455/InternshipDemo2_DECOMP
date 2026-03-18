@@ -1,6 +1,5 @@
-function scr_collide_destructibles()
+function scr_collide_destructibles() //stolen collision code from pt
 {
-	// Really man your using pt code for this?
     if (vsp <= 0.5 && (state == 57 || state == 16 || state == 5 || state == 62 || state == 69 || state == 89))
     {
         if (place_meeting(x, y - 1, obj_destroyable))
@@ -17,7 +16,6 @@ function scr_collide_destructibles()
             }
         }
     }
-    
     if (vsp >= 0 && (state == 73 || state == 76))
     {
         if (place_meeting(x, y + vsp + 2, obj_destroyable))
@@ -26,7 +24,6 @@ function scr_collide_destructibles()
                 instance_destroy();
         }
     }
-    
     if (state == 73 || state == 76)
     {
         if (place_meeting(x, y + 1, obj_metalbox) && bodyslam_serious == 1)
@@ -35,7 +32,6 @@ function scr_collide_destructibles()
                 instance_destroy();
         }
     }
-    
     if (state == 21)
     {
         with (obj_destroyable)
@@ -47,7 +43,6 @@ function scr_collide_destructibles()
             }
         }
     }
-    
     with (obj_enemy)
     {
         if (place_meeting(x + hsp, y, obj_destroyable) && thrown == 1)

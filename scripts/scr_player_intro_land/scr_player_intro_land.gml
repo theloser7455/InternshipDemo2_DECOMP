@@ -17,4 +17,3 @@ function scr_player_intro_land() //scr_player_intro_land
         hsp -= 0.1
     sprite_index = spr_player_faceslide
 }
-

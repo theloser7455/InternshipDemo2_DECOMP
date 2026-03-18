@@ -23,4 +23,3 @@ function scr_enemy_stun() //scr_enemy_stun
         sprite_index = asset_get_index("spr_" + string(enem_type) + "_stun")
     }
 }
-

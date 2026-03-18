@@ -7,4 +7,3 @@ function scr_shortmessage(argument0) //scr_shortmessage
         msg_time = 179
     }
 }
-

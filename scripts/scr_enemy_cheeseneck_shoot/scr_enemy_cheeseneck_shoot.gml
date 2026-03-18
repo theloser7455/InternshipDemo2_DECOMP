@@ -25,4 +25,3 @@ function scr_enemy_cheeseneck_shoot() //scr_enemy_cheeseneck_shoot
         thrown = 1
     }
 }
-

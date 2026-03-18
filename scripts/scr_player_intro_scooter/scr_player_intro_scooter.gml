@@ -34,4 +34,3 @@ function scr_player_intro_scooter() //scr_player_intro_scooter
         state = "intro_fall"
     }
 }
-

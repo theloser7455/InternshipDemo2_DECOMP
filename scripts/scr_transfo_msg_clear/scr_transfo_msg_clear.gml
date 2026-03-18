@@ -8,4 +8,3 @@ function scr_transfo_msg_clear() //scr_transfo_msg_clear
     global.no_tvtalk_0s = 0
     global.no_tvtalk_t30s = 0
 }
-

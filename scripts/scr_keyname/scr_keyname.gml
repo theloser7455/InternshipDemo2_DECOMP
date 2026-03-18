@@ -105,7 +105,5 @@ function scr_keyname(argument0) //scr_keyname
         case 32:
             return "SPACE";
     }
-
     return chr(argument0);
 }
-

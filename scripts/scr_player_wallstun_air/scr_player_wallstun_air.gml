@@ -16,4 +16,3 @@ function scr_player_wallstun_air() //scr_player_wallstun_air
     mask_index = spr_intern_hitbox
     sprite_index = spr_player_airstun
 }
-

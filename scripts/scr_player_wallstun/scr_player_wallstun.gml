@@ -11,4 +11,3 @@ function scr_player_wallstun() //scr_player_wallstun
     mask_index = spr_intern_hitbox
     sprite_index = spr_player_wallhug
 }
-

@@ -1,6 +1,6 @@
 function scr_gravity() //scr_gravity
 {
-    if (object_index == obj_player)
+    if object_index == obj_player
     {
         if inwater
             vsp += (global.grv * 0.75)
@@ -10,4 +10,3 @@ function scr_gravity() //scr_gravity
     else
         vsp += global.grv
 }
-

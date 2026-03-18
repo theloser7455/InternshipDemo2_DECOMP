@@ -21,4 +21,3 @@ function scr_player_tacklestop() //scr_player_tacklestop
     sprite_index = tacklestop_spr
     hsp = tackleturnspd * image_xscale
 }
-

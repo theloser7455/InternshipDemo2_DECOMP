@@ -37,4 +37,3 @@ function scr_enemy_dash() //scr_enemy_dash
         }
     }
 }
-

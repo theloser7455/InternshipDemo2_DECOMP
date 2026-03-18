@@ -8,4 +8,3 @@ function scr_enemy_cocobomb_idle() //scr_enemy_cocobomb_idle
     }
     sprite_index = asset_get_index("spr_" + enem_type + "_idle")
 }
-

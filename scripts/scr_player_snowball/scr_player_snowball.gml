@@ -10,7 +10,7 @@ function scr_player_snowball() //scr_player_snowball
             particle_delay--
         else
         {
-            with (instance_create_depth(x, (y + sprite_height / 2), 20, obj_effecttemporary))
+            with instance_create_depth(x, (y + sprite_height / 2), 20, obj_effecttemporary)
             {
                 sprite_index = spr_effect1
                 image_xscale = other.image_xscale
@@ -22,7 +22,7 @@ function scr_player_snowball() //scr_player_snowball
             var chs_debris = irandom_range(3, 5)
             repeat chs_debris
             {
-                with (instance_create_depth(x, bbox_bottom, -1000, obj_debris))
+                with instance_create_depth(x, bbox_bottom, -1000, obj_debris)
                 {
                     sprite_index = spr_snowball_debris
                     image_index = irandom_range(0, 3)
@@ -121,4 +121,3 @@ function scr_player_snowball() //scr_player_snowball
     scr_gravity()
     hsp = image_xscale * (snowball_spd + 9 + snowball_acc)
 }
-

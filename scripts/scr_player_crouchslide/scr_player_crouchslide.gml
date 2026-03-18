@@ -92,4 +92,3 @@ function scr_player_crouchslide() //scr_player_crouchslide
     hsp = crouchslide_dur * image_xscale
     image_speed = crouchslide_dur / 10
 }
-

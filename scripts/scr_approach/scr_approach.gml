@@ -14,4 +14,3 @@ function scr_approach(argument0, argument1, argument2) //scr_approach
     }
     return argument0;
 }
-

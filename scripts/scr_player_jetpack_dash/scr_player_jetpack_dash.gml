@@ -21,7 +21,7 @@ function scr_player_jetpack_dash() //scr_player_jetpack_dash
         ghost_cd--
     else
     {
-        with (instance_create_depth(x, y, 30, obj_machafterimage))
+        with instance_create_depth(x, y, 30, obj_machafterimage)
             alarm[0] = 10
         ghost_cd = 4
     }
@@ -103,7 +103,6 @@ function scr_player_jetpack_dash() //scr_player_jetpack_dash
                     sprite_index = spr_player_jetpack_dash_up_loop
                     break
             }
-
             break
         case spr_sauce:
             switch jumpspr
@@ -115,10 +114,8 @@ function scr_player_jetpack_dash() //scr_player_jetpack_dash
                     sprite_index = spr_player_jetpack_dash_down_loop
                     break
             }
-
             break
     }
-
     if (vsp < 0)
     {
         if (jet_jumpspr != spr_intern_jump_grab)
@@ -168,4 +165,3 @@ function scr_player_jetpack_dash() //scr_player_jetpack_dash
     else
         jetpack_spd = 0
 }
-

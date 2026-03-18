@@ -8,4 +8,3 @@ function scr_player_entergate() //scr_player_entergate
     sprite_index = spr_player_entergate
     x += ((door_id.x - x) * 0.08)
 }
-

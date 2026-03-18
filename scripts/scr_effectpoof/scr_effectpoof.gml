@@ -1,6 +1,6 @@
 function scr_effectpoof() //scr_effectpoof
 {
-    with (instance_create_depth(x, y, -1005, obj_effecttemporary))
+    with instance_create_depth(x, y, -1005, obj_effecttemporary)
     {
         depth = -1005
         image_xscale = 1
@@ -8,4 +8,3 @@ function scr_effectpoof() //scr_effectpoof
         sprite_index = spr_effect32
     }
 }
-

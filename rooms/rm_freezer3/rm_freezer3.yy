@@ -351,7 +351,7 @@
   ],
   "parent": {
     "name": "Christmas Dinner",
-    "path": "folders/Rooms/Main (Hub, Levels etc)/Floor 2/Christmas Dinner.yy",
+    "path": "folders/Rooms/Floor 2/Floor 2 Levels/Christmas Dinner.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

@@ -24,4 +24,3 @@ function scr_player_jetpack_wallhit() //scr_player_jetpack_wallhit
     mask_index = spr_intern_hitbox
     sprite_index = spr_player_tumblefall
 }
-

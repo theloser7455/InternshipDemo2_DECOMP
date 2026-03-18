@@ -59,4 +59,3 @@ function scr_player_spinhit() //scr_player_spinhit
     else
         image_speed = 1.2
 }
-

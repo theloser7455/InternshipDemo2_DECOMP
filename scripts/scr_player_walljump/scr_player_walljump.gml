@@ -20,7 +20,7 @@ function scr_player_walljump() //scr_player_walljump
             ghost_cd--
         else
         {
-            with (instance_create_depth(x, y, 30, obj_machafterimage))
+            with instance_create_depth(x, y, 30, obj_machafterimage)
                 alarm[0] = 10
             ghost_cd = 4
         }
@@ -106,7 +106,5 @@ function scr_player_walljump() //scr_player_walljump
                 sprite_index = spr_player_walljump_loop
                 break
         }
-
     }
 }
-

@@ -7,4 +7,3 @@ function scr_player_bombthrow() //scr_player_bombthrow
     image_speed = 1
     sprite_index = spr_player_throw_something
 }
-

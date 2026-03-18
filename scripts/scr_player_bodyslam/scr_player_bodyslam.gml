@@ -162,4 +162,3 @@ function scr_player_bodyslam() //scr_player_bodyslam
     if (prevvsp != vsp)
         prevvsp = vsp
 }
-

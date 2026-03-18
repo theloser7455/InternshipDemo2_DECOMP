@@ -203,4 +203,3 @@ function scr_enemy_normal() //scr_enemy_normal
         }
     }
 }
-

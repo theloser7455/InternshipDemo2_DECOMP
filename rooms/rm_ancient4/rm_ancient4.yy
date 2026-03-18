@@ -338,7 +338,7 @@
   ],
   "parent": {
     "name": "The Cheddar Temple",
-    "path": "folders/Rooms/Main (Hub, Levels etc)/Floor 1/The Cheddar Temple.yy",
+    "path": "folders/Rooms/Floor 1/Floor 1 Levels/The Cheddar Temple.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

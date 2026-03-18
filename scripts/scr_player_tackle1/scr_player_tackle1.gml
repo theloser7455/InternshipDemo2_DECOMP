@@ -367,4 +367,3 @@ function scr_player_tackle1() //scr_player_tackle1
         state = "bodyslam"
     }
 }
-

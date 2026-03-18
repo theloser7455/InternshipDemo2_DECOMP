@@ -54,6 +54,4 @@ function scr_player_tumble() //scr_player_tumble
             sprite_index = spr_player_tumble
             break
     }
-
 }
-

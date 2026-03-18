@@ -15,13 +15,12 @@ function scr_enemy_bread_heat() //scr_enemy_bread_heat
                 heat_spd = 0
             break
     }
-
     image_speed = 1.25
     if (ghost_cd > 0)
         ghost_cd--
     else
     {
-        with (instance_create_depth(x, y, 30, obj_machafterimage))
+        with instance_create_depth(x, y, 30, obj_machafterimage)
         {
             image_index = other.image_index
             image_xscale = other.image_xscale
@@ -31,4 +30,3 @@ function scr_enemy_bread_heat() //scr_enemy_bread_heat
         ghost_cd = 4
     }
 }
-

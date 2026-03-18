@@ -239,6 +239,4 @@ function scr_player_action_suplex() //scr_player_action_suplex
             }
             break
     }
-
 }
-

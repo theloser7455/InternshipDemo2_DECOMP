@@ -13,4 +13,3 @@ function scr_enemy_cheeser_shoot() //scr_enemy_cheeser_shoot
         thrown = 1
     }
 }
-

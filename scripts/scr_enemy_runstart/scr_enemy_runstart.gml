@@ -22,4 +22,3 @@ function scr_enemy_runstart() //scr_enemy_runstart
     if (place_meeting((x + image_xscale), y, obj_solid) && grounded)
         image_xscale = (-image_xscale)
 }
-

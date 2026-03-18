@@ -37,4 +37,3 @@ function scr_player_superjumpprep() //scr_player_superjumpprep
         state = "superjump"
     }
 }
-

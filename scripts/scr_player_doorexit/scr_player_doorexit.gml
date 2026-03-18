@@ -14,6 +14,4 @@ function scr_player_doorexit() //scr_player_doorexit
             sprite_index = spr_player_shock
             break
     }
-
 }
-

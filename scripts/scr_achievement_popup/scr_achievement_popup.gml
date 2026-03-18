@@ -1,4 +1,1 @@
-function scr_achievement_popup() //scr_achievement_popup
-{
-}
-
+function scr_achievement_popup() {} // unused

@@ -19,7 +19,6 @@ function scr_player_parry() //scr_player_parry
                     hsp = 0
                 break
         }
-
         scr_gravity()
         image_xscale = spinhit_dir
     }
@@ -32,7 +31,7 @@ function scr_player_parry() //scr_player_parry
         ghost_cd--
     else
     {
-        with (instance_create_depth(x, y, 30, obj_machafterimage))
+        with instance_create_depth(x, y, 30, obj_machafterimage)
             alarm[0] = 10
         ghost_cd = 4
     }
@@ -41,4 +40,3 @@ function scr_player_parry() //scr_player_parry
     image_speed = 1
     grabonground = 0
 }
-

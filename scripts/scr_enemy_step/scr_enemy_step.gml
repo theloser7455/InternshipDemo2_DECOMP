@@ -345,4 +345,3 @@ function scr_enemy_step() //scr_enemy_step
     if (stunysc < 1)
         stunysc += 0.04
 }
-

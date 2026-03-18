@@ -19,4 +19,3 @@ function scr_enemy_dashstart() //scr_enemy_dashstart
         ghost_cd = 4
     }
 }
-

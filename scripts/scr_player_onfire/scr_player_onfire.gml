@@ -8,7 +8,7 @@ function scr_player_onfire() //scr_player_onfire
     {
         if (abs(onfire_spd) > 14)
         {
-            with (instance_create_depth(x, y, 30, obj_machafterimage))
+            with instance_create_depth(x, y, 30, obj_machafterimage)
                 alarm[0] = 10
         }
         else
@@ -172,4 +172,3 @@ function scr_player_onfire() //scr_player_onfire
         grabonground = 0
     }
 }
-

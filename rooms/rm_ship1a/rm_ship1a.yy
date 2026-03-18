@@ -68,8 +68,8 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":799,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_bg_ship_interior","path":"sprites/spr_bg_ship_interior/spr_bg_ship_interior.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "Ship \"\"WIP\"\"",
-    "path": "folders/Rooms/Main (Hub, Levels etc)/Floor 2/Ship \"\"WIP\"\".yy",
+    "name": "Ship \"WIP\"",
+    "path": "folders/Rooms/Floor 2/Floor 2 Levels/Ship \"WIP\".yy",
   },
   "parentRoom": null,
   "physicsSettings": {

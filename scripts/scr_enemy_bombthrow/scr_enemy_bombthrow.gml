@@ -14,4 +14,3 @@ function scr_enemy_bombthrow() //scr_enemy_bombthrow
         thrown = 1
     }
 }
-

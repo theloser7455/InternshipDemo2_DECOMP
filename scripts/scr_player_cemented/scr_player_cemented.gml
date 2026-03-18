@@ -31,7 +31,7 @@ function scr_player_cemented() //scr_player_cemented
     {
         repeat irandom_range(3, 6)
         {
-            with (instance_create_depth(x, y, -1004, obj_debris))
+            with instance_create_depth(x, y, -1004, obj_debris)
             {
                 spinning = 1
                 spinstrength = irandom_range(10, 40)
@@ -55,4 +55,3 @@ function scr_player_cemented() //scr_player_cemented
     }
     sprite_index = spr_player_cemented
 }
-

@@ -34,4 +34,3 @@ function scr_player_intro_fall() //scr_player_intro_fall
     image_speed = 1
     sprite_index = spr_player_tumblefall
 }
-

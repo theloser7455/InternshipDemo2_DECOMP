@@ -4,4 +4,3 @@ function scr_destroyable_draw() //scr_destroyable_draw
     draw_self()
     scr_silh_end()
 }
-

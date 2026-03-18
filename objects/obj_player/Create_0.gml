@@ -22,33 +22,33 @@ slidejump = 0
 windeffect = noone
 angle = 0
 character = "intern"
-key_left = 0
-key_right = 0
-key_up = 0
-key_down = 0
-key_jump = 0
-key_grab = 0
-key_taunt = 0
-key_shoot = 0
-key_dash = 0
-key_left_once = 0
-key_right_once = 0
-key_up_once = 0
-key_down_once = 0
-key_jump_hold = 0
-key_grab_hold = 0
-key_taunt_hold = 0
-key_shoot_hold = 0
-key_dash_once = 0
-key_left_release = 0
-key_right_release = 0
-key_up_release = 0
-key_down_release = 0
-key_jump_release = 0
-key_grab_release = 0
-key_taunt_release = 0
-key_shoot_release = 0
-key_dash_release = 0
+key_left = false
+key_right = false
+key_up = false
+key_down = false
+key_jump = false
+key_grab = false
+key_taunt = false
+key_shoot = false
+key_dash = false
+key_left_once = false
+key_right_once = false
+key_up_once = false
+key_down_once = false
+key_jump_hold = false
+key_grab_hold = false
+key_taunt_hold = false
+key_shoot_hold = false
+key_dash_once = false
+key_left_release = false
+key_right_release = false
+key_up_release = false
+key_down_release = false
+key_jump_release = false
+key_grab_release = false
+key_taunt_release = false
+key_shoot_release = false
+key_dash_release = false
 ghostcheckpoint_spd = 0
 machgrab_spd = 0
 grabonground = 0
@@ -185,15 +185,15 @@ global.playervoice = noone
 voice_hurttime = 0
 voice_idletime = 0
 scr_playerspr()
-with (instance_create_depth(x, (bbox_top - 32), -1, obj_playerhat))
+with instance_create_depth(x, (bbox_top - 32), -1, obj_playerhat)
     targ = other.object_index
-with (instance_create_depth(x, y, depth, obj_playerhitbox))
+with instance_create_depth(x, y, depth, obj_playerhitbox)
     targ = other.id
-with (instance_create_depth(x, y, depth, obj_playerbodyslamhitbox))
+with instance_create_depth(x, y, depth, obj_playerbodyslamhitbox)
     targ = other.id
-with (instance_create_depth(x, y, depth, obj_playerfronthitbox))
+with instance_create_depth(x, y, depth, obj_playerfronthitbox)
     targ = other.id
-with (instance_create_depth(x, y, (depth + 1), obj_playerwindeffect))
+with instance_create_depth(x, y, (depth + 1), obj_playerwindeffect)
     targ = other.id
 arrowid = instance_create_depth(x, y, -1, obj_playerarrow)
 with (arrowid)

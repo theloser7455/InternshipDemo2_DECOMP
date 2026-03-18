@@ -1,6 +1,6 @@
 function scr_hurt() //scr_hurt
 {
-    if (obj_player.state != "hurt" && obj_player.state != "doorexit" && obj_player.state != "enterdoor" && obj_player.state != "entergate" && obj_player.state != "doorkey_enter" && obj_player.state != "escapeenter" && obj_player.invincibility == 0 && obj_player.state != "ghost" && obj_player.state != "enterportal" && obj_player.state != "outterportal")
+    if obj_player.state != "hurt" && obj_player.state != "doorexit" && obj_player.state != "enterdoor" && obj_player.state != "entergate" && obj_player.state != "doorkey_enter" && obj_player.state != "escapeenter" && obj_player.invincibility == 0 && obj_player.state != "ghost" && obj_player.state != "enterportal" && obj_player.state != "outterportal"
     {
         with (obj_player)
         {
@@ -26,4 +26,3 @@ function scr_hurt() //scr_hurt
         }
     }
 }
-

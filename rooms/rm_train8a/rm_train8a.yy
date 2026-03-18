@@ -352,7 +352,7 @@
   ],
   "parent": {
     "name": "Train Madness",
-    "path": "folders/Rooms/Main (Hub, Levels etc)/Floor 2/Train Madness.yy",
+    "path": "folders/Rooms/Floor 2/Floor 2 Levels/Train Madness.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

@@ -1,10 +1,10 @@
 function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
 {
-    if (secretblock == 1)
+    if secretblock == 1
     {
         repeat irandom_range(4, 6)
         {
-            with (instance_create_depth(x, y, -1004, obj_debris))
+            with instance_create_depth(x, y, -1004, obj_debris)
             {
                 spinning = 1
                 spinstrength = irandom_range(10, 40)
@@ -25,7 +25,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox:
                 repeat irandom_range(2, 4)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -54,7 +54,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_hidden:
                 repeat irandom_range(2, 4)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -83,7 +83,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_big:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -112,7 +112,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_big_up:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -129,7 +129,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_big_left:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -146,7 +146,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_big_right:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -163,7 +163,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_big_down:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -180,7 +180,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_big_hidden:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -197,7 +197,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_big_hidden_up:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -214,7 +214,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_big_hidden_left:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -231,7 +231,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_big_hidden_right:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -248,7 +248,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_big_hidden_down:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -265,7 +265,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_breadbox_giant_hidden:
                 repeat irandom_range(4, 9)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -294,7 +294,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_metalbox:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -311,7 +311,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_metalbox_hidden:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -328,7 +328,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_metalbox_big:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -345,7 +345,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_metalbox_big_hidden:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -362,7 +362,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_metalbox_giant_hidden:
                 repeat irandom_range(4, 9)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -379,7 +379,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_bombbox:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -396,7 +396,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_bombbox_hidden:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -413,7 +413,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_hardbox:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -429,7 +429,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_hardbox_hidden:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -445,7 +445,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_hardbox_giant_hidden:
                 repeat irandom_range(4, 9)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -461,7 +461,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_hardbox_big:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -477,7 +477,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_hardbox_big_hidden:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -494,7 +494,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_cheeseblock:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -511,7 +511,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_cheeseblock_hidden:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -528,7 +528,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_cheeseblock_big_hidden:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -545,7 +545,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_explosiveblock:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -562,7 +562,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_targetblock:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -579,7 +579,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_sandwichbox:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -596,7 +596,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_sandwichbox_hidden:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -613,7 +613,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_sandwichbox_big:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -630,7 +630,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_sandwichbox_big_hidden:
                 repeat irandom_range(3, 6)
                 {
-                    with (instance_create_depth(x, y, -1004, obj_debris))
+                    with instance_create_depth(x, y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -647,7 +647,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
             case obj_ancientplatform:
                 repeat irandom_range(5, 9)
                 {
-                    with (instance_create_depth((x + (irandom_range(224, -224))), y, -1004, obj_debris))
+                    with instance_create_depth((x + (irandom_range(224, -224))), y, -1004, obj_debris)
                     {
                         spinning = 1
                         spinstrength = irandom_range(10, 40)
@@ -662,7 +662,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
                 }
                 break
             case obj_loafblock:
-                with (instance_create_depth(x, y, -1004, obj_debris))
+                with instance_create_depth(x, y, -1004, obj_debris)
                 {
                     particles = 1
                     spinstrength = irandom_range(10, 40)
@@ -672,9 +672,7 @@ function scr_destroyable_debriscreate() //scr_destroyable_debriscreate
                     vsp = irandom_range(2, -10)
                     sprite_index = spr_loaf_dead
                 }
-                break
+				break
         }
-
     }
 }
-

@@ -13,4 +13,3 @@ function scr_enemy_draw() //scr_enemy_draw
         scr_silh_end()
     }
 }
-

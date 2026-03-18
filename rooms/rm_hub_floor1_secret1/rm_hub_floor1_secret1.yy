@@ -45,7 +45,7 @@
   ],
   "parent": {
     "name": "Floor 1",
-    "path": "folders/Rooms/Main (Hub, Levels etc)/Floor 1.yy",
+    "path": "folders/Rooms/Floor 1.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

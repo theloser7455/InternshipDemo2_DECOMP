@@ -1,10 +1,10 @@
 function scr_player_perform_spinhit(argument0, argument1, argument2, argument3, argument4) //scr_player_perform_spinhit
 {
-    if (global.character == "intern")
+    if global.character == "intern"
     {
         grabcooldown -= 12
         spinhit_moving = argument0
-        if (argument0 == 1)
+        if argument0 == 1
         {
             image_xscale = argument1
             spinhit_dir = (-argument1)
@@ -25,4 +25,3 @@ function scr_player_perform_spinhit(argument0, argument1, argument2, argument3, 
         grabonground = 0
     }
 }
-

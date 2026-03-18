@@ -607,7 +607,7 @@
   ],
   "parent": {
     "name": "La Tomatino Resort",
-    "path": "folders/Rooms/Main (Hub, Levels etc)/Floor 2/La Tomatino Resort.yy",
+    "path": "folders/Rooms/Floor 2/Floor 2 Levels/La Tomatino Resort.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

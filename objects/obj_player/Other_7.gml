@@ -471,4 +471,3 @@ switch sprite_index
         jumpspr = spr_sauce
         break
 }
-

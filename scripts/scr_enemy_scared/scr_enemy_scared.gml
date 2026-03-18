@@ -10,4 +10,3 @@ function scr_enemy_scared() //scr_enemy_scared
         sprite_index = asset_get_index("spr_" + string(enem_type) + "_scared")
     }
 }
-

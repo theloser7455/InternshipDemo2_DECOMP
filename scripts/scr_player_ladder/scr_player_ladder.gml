@@ -50,4 +50,3 @@ function scr_player_ladder() //scr_player_ladder
     grabonground = 0
     scr_player_action_suplex()
 }
-

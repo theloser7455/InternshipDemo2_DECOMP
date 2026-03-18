@@ -14,4 +14,3 @@ function scr_player_jetpack_windup() //scr_player_jetpack_windup
     image_speed = 1.2
     sprite_index = spr_player_jetpack_windup
 }
-

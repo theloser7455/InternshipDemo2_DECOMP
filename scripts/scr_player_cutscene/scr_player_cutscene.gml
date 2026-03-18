@@ -23,4 +23,3 @@ function scr_player_cutscene() //scr_player_cutscene
         cutscene_choice_c = clamp(cutscene_choice_c, 1, 3)
     }
 }
-

@@ -15,4 +15,3 @@ function scr_enemy_hitfreeze() //scr_enemy_hitfreeze
             hitfreeze = -1
     }
 }
-

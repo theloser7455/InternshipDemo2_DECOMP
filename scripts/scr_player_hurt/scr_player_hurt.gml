@@ -21,4 +21,3 @@ function scr_player_hurt() //scr_player_hurt
         mask_index = spr_intern_hitbox
     image_speed = 1
 }
-

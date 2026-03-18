@@ -58,7 +58,7 @@
   ],
   "parent": {
     "name": "Tutorial",
-    "path": "folders/Rooms/Main (Hub, Levels etc)/Tutorial.yy",
+    "path": "folders/Rooms/Floor 1/Tutorial.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

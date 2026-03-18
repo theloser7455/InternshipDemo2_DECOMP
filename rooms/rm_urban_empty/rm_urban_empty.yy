@@ -28,7 +28,7 @@
   ],
   "parent": {
     "name": "Urban",
-    "path": "folders/Rooms/Main (Hub, Levels etc)/Floor 2/Urban.yy",
+    "path": "folders/Rooms/Floor 2/Floor 2 Levels/Urban.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

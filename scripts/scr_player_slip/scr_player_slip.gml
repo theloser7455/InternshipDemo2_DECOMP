@@ -34,4 +34,3 @@ function scr_player_slip() //scr_player_slip
     hsp = crouchslide_dur * image_xscale
     image_speed = crouchslide_dur / 5
 }
-

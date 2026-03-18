@@ -6,13 +6,13 @@ function scr_bigs_shake() //scr_bigs_shake
     shk_y = irandom_range(-16, 16)
     x = curx + shk_x
     y = cury + shk_y
-    if (timetodie > 0)
+    if timetodie > 0
         timetodie--
     else
     {
         scr_basheffect()
         scr_sound(sfx_hit)
-        with (instance_create_depth(x, y, 2, obj_debris))
+        with instance_create_depth(x, y, 2, obj_debris)
         {
             particles = 1
             hsp = choose(-8, 8)
@@ -22,4 +22,3 @@ function scr_bigs_shake() //scr_bigs_shake
         instance_destroy()
     }
 }
-

@@ -42,9 +42,8 @@ function scr_gameover() //scr_gameover
     scr_transfo_msg_clear()
     room_goto(rm_timesup)
     instance_destroy(obj_player)
-    with (instance_create_depth(480, 270, 1, obj_player))
+    with instance_create_depth(480, 270, 1, obj_player)
         state = "timesup"
     if (object_index == obj_bigs)
         instance_destroy()
 }
-

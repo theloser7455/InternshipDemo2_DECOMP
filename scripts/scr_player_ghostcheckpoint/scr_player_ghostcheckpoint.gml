@@ -32,4 +32,3 @@ function scr_player_ghostcheckpoint() //scr_player_ghostcheckpoint
         }
     }
 }
-

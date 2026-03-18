@@ -7,4 +7,3 @@ function scr_player_roomenter() //scr_player_roomenter
     image_speed = 1.4
     sprite_index = spr_player_enter
 }
-

@@ -17,4 +17,3 @@ function scr_player_supertaunt() //scr_player_supertaunt
         jumpspr = spr_sauce
     }
 }
-

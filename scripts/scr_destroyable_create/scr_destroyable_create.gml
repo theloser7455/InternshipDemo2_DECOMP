@@ -6,4 +6,3 @@ function scr_destroyable_create() //scr_destroyable_create
     else
         secretblock = 0
 }
-

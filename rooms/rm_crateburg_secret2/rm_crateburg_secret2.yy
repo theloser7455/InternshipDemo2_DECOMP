@@ -104,7 +104,7 @@
   ],
   "parent": {
     "name": "Crateburg",
-    "path": "folders/Rooms/Main (Hub, Levels etc)/Floor 1/Crateburg.yy",
+    "path": "folders/Rooms/Floor 1/Floor 1 Levels/Crateburg.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

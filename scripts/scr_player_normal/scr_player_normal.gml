@@ -763,4 +763,3 @@ function scr_player_normal() //scr_player_normal
         }
     }
 }
-

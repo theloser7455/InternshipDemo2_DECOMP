@@ -1,6 +1,6 @@
 function scr_pausemenu_restart() //scr_pausemenu_restart
 {
-    if (room != rm_timesup && global.level != "hub")
+    if room != rm_timesup && global.level != "hub"
     {
         global.trainsfx = noone
         global.treasure = 0
@@ -74,7 +74,6 @@ function scr_pausemenu_restart() //scr_pausemenu_restart
                 room_goto(rm_ship1)
                 break
         }
-
         with (obj_game)
         {
             pause = (-pause)
@@ -106,4 +105,3 @@ function scr_pausemenu_restart() //scr_pausemenu_restart
         instance_destroy()
     }
 }
-

@@ -151,4 +151,3 @@ function scr_enemy_death() //scr_enemy_death
     else
         global.heat_meter += global.combo
 }
-

@@ -49,4 +49,3 @@ function scr_player_superjump() //scr_player_superjump
     }
     sprite_index = spr_player_superjump
 }
-

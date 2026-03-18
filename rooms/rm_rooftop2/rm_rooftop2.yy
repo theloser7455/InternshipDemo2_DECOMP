@@ -195,7 +195,7 @@
   ],
   "parent": {
     "name": "Rooftops",
-    "path": "folders/Rooms/Main (Hub, Levels etc)/Floor 1/Rooftops.yy",
+    "path": "folders/Rooms/Floor 1/Floor 1 Levels/Rooftops.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
