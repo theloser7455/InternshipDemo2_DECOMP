@@ -7,9 +7,8 @@ Basically a decomp of Internship July 1st build (or "DEMO 2" but whatever)
 > [!IMPORTANT]
 > [Install GameMaker 2023.11.1.129](https://gms.yoyogames.com/GameMaker-Installer-2023.11.1.129.exe)<br/>
 and thats it Okay.
-# Credits & what i decompiled it with
+# Credits & Other Stuff
 > [!IMPORTANT]
 > Decompiled this with UTMTCE and used Underanalyzer for the collision stuff (and rooms?)
 
-> [!IMPORTANT]
-> and Salty_kvas for making internship in general.
+- and Salty_kvas for making internship in general.
