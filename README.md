@@ -1,6 +1,8 @@
 # Internship DEMO 2 Decomp
 > [!NOTE]
-> please know that, this is kinda of old and crappy and i dont plan to redo the decomp anytime soon, but you can stil use it eitherway i dont mind.
+> please know that, this is kinda of old and crappy and i, 
+  dont plan to re-do the decomp anytime soon, 
+  but you can stil use it eitherway i dont mind.
 
 Basically a decomp of Internship July 1st build (or "DEMO 2" but whatever)
 # Requirements to use this decomp
